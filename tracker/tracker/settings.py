@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #Custom app
+    'tcg_client',
+
+    #Standard apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
